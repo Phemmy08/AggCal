@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggregate Calculator</title>
+    <link rel="icon" href="P.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h3>Enter the required info to calculate your aggregate</h3>
+        </div>
+    </header>
+    <main>
+        <div class="phemmy">
+            <h3>PROUDLY BROUGHT TO YOU BY </h3>
+            <h3>PHEMMY</h3>
+        </div>
+        <section>
+            <div class="subjects">
+                <label for="maths">Mathematics</label>
+                <select name="maths" id="maths">
+                    <option value="80">A1</option>
+                    <option value="72">B2</option>
+                    <option value="67">B3</option>
+                    <option value="62">C4</option>
+                    <option value="57">C5</option>
+                    <option value="52">C6</option>
+                </select>
+            </div>
+        </section>
+        <section>
+            <div class="subjects">
+                <label for="english">English</label>
+                <select name="english" id="english">
+                    <option value="80">A1</option>
+                    <option value="72">B2</option>
+                    <option value="67">B3</option>
+                    <option value="62">C4</option>
+                    <option value="57">C5</option>
+                    <option value="52">C6</option>
+                </select>
+            </div>
+        </section>
+        <section>
+            <div class="subjects">
+                <label for="others1">O'level Subject 3</label>
+                <select name="others1" id="others1">
+                    <option value="80">A1</option>
+                    <option value="72">B2</option>
+                    <option value="67">B3</option>
+                    <option value="62">C4</option>
+                    <option value="57">C5</option>
+                    <option value="52">C6</option>
+                </select>
+            </div>
+        </section>
+        <section>
+            <div class="subjects">
+                <label for="others2">O'level Subject 4</label>
+                <select name="others2" id="others2">
+                    <option value="80">A1</option>
+                    <option value="72">B2</option>
+                    <option value="67">B3</option>
+                    <option value="62">C4</option>
+                    <option value="57">C5</option>
+                    <option value="52">C6</option>
+                </select>
+            </div>
+        </section>
+        <section>
+            <div class="subjects">
+                <label for="others4">O'level Subject 5</label>
+                <select name="others4" id="others4">
+                    <option value="80">A1</option>
+                    <option value="72">B2</option>
+                    <option value="67">B3</option>
+                    <option value="62">C4</option>
+                    <option value="57">C5</option>
+                    <option value="52">C6</option>
+                </select>
+            </div>
+        </section>
+        <section>
+            <div class="subjects">
+                <label for="jamb">UTME SCORE</label>
+                <input type="number" id="jamb" placeholder="356" min="0" max="400" maxlength="3">
+                <p id="error" class="error"></p>
+            </div>
+        </section>
+
+        <!-- Add result section here -->
+        <section id="resultSection" style="display: none;">
+            <h3>Your Aggregate Score:</h3>
+            <p id="aggregateResult"></p>
+            <button id="whatsappButton">Send Message on WhatsApp</button>
+        </section>
+
+        <button id="calculateBtn">Calculate Aggregate</button>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>Developed by Phemmy Expert</p>
+            <p>This web app is not paid for but for educational purposes only</p>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

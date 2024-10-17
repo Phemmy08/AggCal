@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, whitesmoke, burlywood);
+    color: blueviolet;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, #1b2350, #2c14ff); /* Gradient color */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.head h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.phemmy {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.phemmy h3 {
+    font-size: 22px;
+    color: blueviolet;
+}
+
+/* Styles for sections */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(204, 219, 245);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 600px; /* Maximum width of section */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+section:hover {
+    transform: translateY(-5px); /* Raise on hover */
+}
+
+.subjects {
+    margin-bottom: 20px;
+}
+
+.subjects label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.subjects select,
+.subjects input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.2s; /* Smooth transition on focus */
+}
+
+.subjects select:focus,
+.subjects input:focus {
+    border-color: #ff7e5f; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+/* Button styles */
+button {
+    background-image: linear-gradient(to right, rgb(205, 190, 219), rgb(27, 27, 163)); /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition */
+    text-align: center;
+}
+
+button:hover {
+    background-color: #feb47b; /* Lighter color on hover */
+}
+
+/* Footer styles */
+footer {
+    background: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2); /* Shadow above footer */
+}
+
+.footer p {
+    margin: 5px 0;
+}
